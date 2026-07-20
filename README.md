@@ -2,6 +2,12 @@
 
 **Synthetic data that keeps its statistical guarantee. Run the test yourself.**
 
+
+![coverage-preserving synthesis results](coverage_results.png)
+
+
+
+
 Most synthetic data silently breaks downstream uncertainty estimates. If you
 release synthetic data and someone calibrates a conformal predictor on it, their
 "90% interval" often does not cover 90% on the real distribution -- the
